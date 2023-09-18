@@ -1,0 +1,23 @@
+name: Repo Owners report
+
+on: 
+  workflow_dispatch:
+    inputs:
+      org-name:
+        description: 'Org Name'
+        required: true
+
+jobs:
+  call-repo-owners:
+    runs-on: ubuntu-latest
+    name: Repo Owners
+    steps:
+      - id: run-script
+        uses: rohitnb/repo-owners-report@main
+        with:
+          github-org-token: ${{ secrets.ORG_TOKEN }}
+          org-name: ${{ github.event.inputs.org-name }}
+      - uses: actions/upload-artifact@v3.1.3
+        with:
+          name: repo-owners-report
+          path: ${{ github.event.inputs.org-name }}-repo-owners-report.csv
