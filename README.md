@@ -10,3 +10,7 @@
 4. Navigate to Settings-> Secrets and Variables -> Actions -> New Repository Secret
 
 5. Add the name as `ORG_TOKEN` and Secret as the token you generated in Steps 2 and 3
+
+6. Navigate to the Actions tab -> Repo Owners Report -> Run Workflow -> Input the Org Name & click Run Workflow
+<img width="1510" alt="Screenshot 2023-09-18 at 11 32 56 AM" src="https://github.com/rohitnb/repo-owners-caller/assets/48172220/5e4683a5-a5a5-478a-96ce-a4ced4603b6b">
+
