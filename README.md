@@ -16,7 +16,7 @@
 
 <img width="1286" alt="Screenshot 2023-09-18 at 11 58 36 AM" src="https://github.com/rohitnb/repo-owners-caller/assets/48172220/c4799477-411b-4144-a4fb-be9059b13fa6">
 
-#### 3. Add the personal access token you created with the name `ORG_TOKEN`. If you don't have a personal access token, follow the documents in the Prerequisites section
+#### 3. Add the personal access token you created with the name `ORG_TOKEN`. If you don't have a personal access token, follow the documents in the [Prerequisites](https://github.com/rohitnb/repo-owners-caller/tree/main#prerequisites) section
 
 <img width="995" alt="Screenshot 2023-09-18 at 11 59 59 AM" src="https://github.com/rohitnb/repo-owners-caller/assets/48172220/111c9543-aac7-4962-8a8a-908d4005bf26">
 
