@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- GitHub Personal Access Token with `admin:org` permissions and authorized to access the Orgs
+- GitHub Personal Access Token with `repo` and `admin:org` permissions and authorized to access the Orgs
     - [How to create one?](https://docs.github.com/en/enterprise-cloud@latest/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
     - If SSO is enabled for your orgs, then authorize the token to access them. [How do I authorize my personal access token?](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on)
 
